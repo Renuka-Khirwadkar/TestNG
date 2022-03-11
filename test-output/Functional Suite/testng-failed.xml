@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Title Validation(failed)">
+    <classes>
+      <class name="Folder1.Practice2">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- Folder1.Practice2 -->
+    </classes>
+  </test> <!-- Title Validation(failed) -->
+  <test thread-count="5" name="Dropdwon Validation(failed)">
+    <classes>
+      <class name="Folder1.Practice3">
+        <methods>
+          <include name="login"/>
+          <include name="driver"/>
+          <include name="reg"/>
+        </methods>
+      </class> <!-- Folder1.Practice3 -->
+    </classes>
+  </test> <!-- Dropdwon Validation(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->
